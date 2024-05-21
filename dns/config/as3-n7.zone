@@ -1,0 +1,19 @@
+$TTL 1d
+
+$ORIGIN as3.n7.
+
+@               IN      SOA     ns.as3.n7. info.as3.n7. (
+                                1715635387 ; serial
+                                12h        ; refresh
+                                15m        ; retry
+                                3w         ; expire
+                                2h         ; minimum ttl
+                                )
+
+                IN      NS      ns.as3.n7.
+
+ns              IN      A       172.17.0.2
+
+; -- dns records
+
+web             IN      A       10.10.10.10
